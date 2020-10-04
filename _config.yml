@@ -6,7 +6,7 @@ plugins:
   - jekyll-github-metadata
   - jemoji
 
-permalink: /:year/:month/:day/:title/
+permalink: /:title/:day
 
 defaults:
   -
@@ -38,13 +38,14 @@ social_media:
   # linkedin: your_username
   # mastodon: your_username
   # medium: your_username
-  stackoverflow: injoon5
+  # stackoverflow: injoon5
   # telegram: your_username
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
+  dev.to: injoon5
 
 topics:
   - name: CSS
