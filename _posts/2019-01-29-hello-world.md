@@ -73,3 +73,4 @@ one: Mark McGwire
 two: Sammy Sosa
 three: Ken Griffey
 ```
+<script src="https://utteranc.es/client.js" repo="injoon5/injoon5.github.io" issue-term="pathname" theme="github-light" crossorigin="anonymous" async> </script>
