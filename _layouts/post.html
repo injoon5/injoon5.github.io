@@ -44,6 +44,13 @@
       <h1 class="f00-light lh-condensed">{{ page.title }}</h1>
       <p class="{% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %} mb-5">Published {{ page.date | date: "%b %d, %Y"}}</p>
       {{ post_body }}
+      <script src="https://utteranc.es/client.js"
+        repo="injoon5/injoon5.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
     </div>
   </div>
 {% else %}
@@ -64,13 +71,6 @@
         </div>
       </div>
     </div>
-    <script src="https://utteranc.es/client.js"
-        repo="injoon5/injoon5.github.io"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-    </script>
   </div>
 
 {% endif %}
